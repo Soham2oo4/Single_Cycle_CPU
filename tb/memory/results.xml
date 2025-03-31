@@ -1,0 +1,6 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1743347938" />
+    <testcase name="memory_data_test" classname="test_memory" file="/mnt/d/Hackathons/RISCV_proc/tb/memory/test_memory.py" lineno="22" time="0.021556854248046875" sim_time_ns="141.001" ratio_time="6540.8894255883915" />
+  </testsuite>
+</testsuites>
