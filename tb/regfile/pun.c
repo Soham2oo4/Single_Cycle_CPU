@@ -12,7 +12,8 @@ int main(void){
         int facto = fact(i);
         printf("%d\n",facto);
         e += 1.0/fact(i);
-    }   
+    }
     printf("%f\n", e);
+    printf("helo")
     return 0;
 }
