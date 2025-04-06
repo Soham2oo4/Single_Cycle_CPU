@@ -23,7 +23,7 @@ module memory #(
             for (int i = 0 ; i < WORDS ; i++)begin
                 mem[i] = 32'd0;
             end
-        end
+        end 
         else if(write_enable)begin 
             if (address[1:0] == 2'b00)begin 
                 for (int i = 0 ; i < 4 ; i++)begin

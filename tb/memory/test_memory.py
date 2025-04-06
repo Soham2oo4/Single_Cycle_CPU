@@ -28,7 +28,7 @@ async def memory_data_test(dut):
     # Test data: (address, write_data)
     test_data = [
         (0, 0xDEADBEEF),
-        (4, 0xCAFEBABE),
+        (4, 0xCAFEBABE),    
         (8, 0x12345678),
         (12, 0xA5A5A5A5)
     ]

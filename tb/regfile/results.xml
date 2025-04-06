@@ -1,0 +1,8 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1743683150" />
+    <testcase name="reset" classname="test_regfile" file="/mnt/d/Hackathons/RISCV_proc/tb/regfile/test_regfile.py" lineno="6" time="0.0027098655700683594" sim_time_ns="10.001" ratio_time="3690.588976244941">
+      <failure message="Test failed with RANDOM_SEED=1743683150" />
+    </testcase>
+  </testsuite>
+</testsuites>
