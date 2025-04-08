@@ -1,8 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1743683150" />
-    <testcase name="reset" classname="test_regfile" file="/mnt/d/Hackathons/RISCV_proc/tb/regfile/test_regfile.py" lineno="6" time="0.0027098655700683594" sim_time_ns="10.001" ratio_time="3690.588976244941">
-      <failure message="Test failed with RANDOM_SEED=1743683150" />
-    </testcase>
+    <property name="random_seed" value="1744106413" />
+    <testcase name="random_write_read_test" classname="test_regfile" file="/mnt/d/Hackathons/RISCV_proc/tb/regfile/test_regfile.py" lineno="6" time="0.15000081062316895" sim_time_ns="10032.001" ratio_time="66879.64523873359" />
   </testsuite>
 </testsuites>

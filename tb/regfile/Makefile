@@ -2,15 +2,12 @@ SIM ?= verilator
 TOPLEVEL_LANG ?= verilog
 EXTRA_ARGS += --trace --trace-structs
 WAVES = 1
+
 VERILOG_SOURCES += $(PWD)/../../src/regfile.sv
+# use VHDL_SOURCES for VHDL files
+
+# TOPLEVEL is the name of the toplevel module in your Verilog or VHDL file
 TOPLEVEL = regfile
-MODULE = test_regfile 
+
+MODULE = test_regfile
 include $(shell cocotb-config --makefiles)/Makefile.sim
-
-.PHONY: compile sim
-
-compile:
-	verilator --cc --sv --Wall --lint-only --Wno-fatal $(VERILOG_SOURCES)
-
-sim: 
-	make results.xml
